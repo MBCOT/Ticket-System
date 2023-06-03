@@ -1,7 +1,7 @@
-# Ticket-System
-Ticketing system to avoid fraud and over saturation and proof authentiticy
+# Ticket  <img src="logo_yellow.png" width="350" title="Ticketing System" alt="Ticketing System" align="right">
+**Ticketing system to avoid fraud and over saturation and proof authentiticy**
 
-
+<br/><br/>
 -  On concerts, events, meeting, football competitions, race competitions..... people have to get their
 tickets usually online and most of times on a high demand the system got collapsed or the tickets
 once printed they got falsification.
