@@ -1,3 +1,65 @@
+# Generic Ticketing System Overview
+
+**Purpose:** To develop a versatile ticketing system capable of managing ticket creation, sales, and authentication for various events and purposes, while addressing issues such as fraud prevention, ticket saturation, and authentication proof.
+
+## Use Cases
+
+### City Parking Lots
+- A city or car park company can implement QR code-based tickets for parking spaces.
+  - Users scan QR codes representing parking spots and pay automatically for a specified duration.
+  - Upon exiting, users are charged based on their actual usage, with refunds issued accordingly.
+  - This use case optimizes parking space utilization and offers a convenient solution for users.
+
+### Events & Competitions
+- The ticketing system is suitable for managing tickets for concerts, events, meetings, sports competitions, and more.
+  - It eliminates issues such as system collapse and ticket falsification, common in traditional ticketing systems.
+  - Users can purchase tickets securely and efficiently, reducing the risk of fraud and improving user experience.
+
+### Recipe NFT Tokens
+- Companies, organizations, or individuals can generate NFT tokens configured with specific information.
+  - These tokens can be integrated into various sectors such as retail, healthcare, and real-world contracts.
+  - Users benefit from enhanced authenticity and security in transactions and interactions.
+
+## System Implementation
+
+### Ticketing System Dapp Over Minima
+- The ticketing system operates as a Dapp over Minima, providing a user-friendly interface for ticket creation and management.
+- Users can purchase event-specific NFT tokens, which are sent directly to their wallets.
+- On the event day, access to the event is granted only to users with the corresponding NFT tokens, ensuring security and preventing ticket fraud.
+
+## Approaches
+
+### 1: Central System
+- Utilizes a central server to run a Dapp for configuring and selling tokens.
+- Tokens are created with embedded smart contracts to ensure transparency and prevent abuse.
+- Enables tokenized system monetization and tradeability on Minima DEX.
+  - Pros:
+    - Tokenized system offers transparency and security.
+    - Transactions can be delivered over Maxima to avoid burns.
+    - Ecosystem over Minima facilitates monetization.
+  - Cons:
+    - Requires a server to run the Dapp, adding to infrastructure costs.
+
+### 2: Fully Decentralized System
+- Empowers users to create and manage tokens and tickets autonomously.
+- Offers flexibility in configuring event tokens, ticket smart contracts, and sales conditions.
+- Ensures fully decentralized ticketing system operation, eliminating the need for third-party involvement.
+  - Pros:
+    - Fully decentralized, no reliance on third parties.
+    - Users have full control over token and ticket creation.
+  - Cons:
+    - More complex to develop and monetize.
+    - Possibilities for pay-per-use or subscription-based models may require additional implementation efforts.
+
+## Conclusion
+
+The generic ticketing system offers a comprehensive solution for managing tickets across various industries. Whether for parking lots, events, or digital transactions, the system provides enhanced security, authenticity, and user experience. Leveraging the Minima ecosystem and decentralized technologies, the system sets new standards for ticketing efficiency and reliability.
+
+
+
+---
+# Draft document
+
 # A generic Ticketing System <img src="logo_yellow.png" width="350" title="Ticketing System" alt="Ticketing System" align="right">
 **Ticketing system to avoid fraud and over saturation and proof authentiticy**
 
